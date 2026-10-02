@@ -1,306 +1,473 @@
 # Week 01 Assessment Solutions & Working Guide
 
-## Q1 - AIML → Deep Learning → Generative AI → Agents
+## Artificial Intelligence, Machine Learning, Deep Learning, Generative AI, and AI Agents
 
-### A - Answer
-* **Artificial Intelligence (AI):** The broad field of computer science focused on building systems capable of performing tasks that typically require human intelligence, such as reasoning, problem-solving, and perception.
-* **Machine Learning (ML):** A subfield of AI where algorithms learn patterns from data to make predictions or decisions without being explicitly programmed with hardcoded rules.
-* **Deep Learning (DL):** A specialized subset of ML based on multi-layered artificial neural networks capable of learning complex representations from large volumes of unstructured data.
-* **Generative AI (GenAI):** A branch of Deep Learning focused on generating new content (text, images, audio, code) based on patterns learned from existing data.
-* **AI Agent:** An autonomous system built on top of AI models (often LLMs) that can perceive its environment, make decisions, plan workflows, and use tools to achieve specific goals with minimal human intervention.
+## Q1. AIML → Deep Learning → Generative AI → AI Agents
 
-#### Hierarchy & Concept Map
-```
-+-----------------------------------------------------------------------+
-| Artificial Intelligence (AI)                                          |
-|  +-----------------------------------------------------------------+  |
-|  | Machine Learning (ML)                                           |  |
-|  |  +-----------------------------------------------------------+  |  |
-|  |  | Deep Learning (DL)                                       |  |  |
-|  |  |  +-----------------------------------------------------+  |  |  |
-|  |  |  | Generative AI (GenAI)                               |  |  |  |
-|  |  |  +-----------------------------------------------------+  |  |  |
-|  |  +-----------------------------------------------------------+  |  |
-|  +-----------------------------------------------------------------+  |
-+-----------------------------------------------------------------------+
+### A — Answer
 
-System / Operational Layer:
-+-----------------------------------------------------------------------+
-| AI Agent (Uses ML/DL/GenAI models + Tools + Memory + Reasoning)     |
-+-----------------------------------------------------------------------+
-```
+Artificial Intelligence (AI) is a branch of computer science that focuses on developing systems capable of performing tasks that normally require human intelligence, such as reasoning, learning, problem-solving, and decision-making.
 
-#### Everyday Examples
-1. **AI:** Chess-playing programs (e.g., Stockfish) or expert decision systems.
-2. **ML:** Email spam filter classifying incoming messages based on historical word frequencies.
-3. **DL:** Facial recognition software unlocking a smartphone from camera input.
-4. **GenAI:** ChatGPT or Midjourney creating text or artwork from user prompts.
-5. **AI Agent:** An automated customer support agent that checks order status in a database, processes a refund via API, and emails the user.
+Machine Learning (ML) is a subset of AI that enables computers to learn patterns from data and make predictions or decisions without requiring programmers to define every rule manually.
 
-### E - Evidence
-Official technical documentations and foundational textbooks (e.g., Russell & Norvig's *Artificial Intelligence: A Modern Approach* and IBM Technical Resources) define AI as the overarching set, with ML and DL as nested subsets.
+Deep Learning (DL) is a subset of machine learning that uses artificial neural networks with multiple layers to identify complex patterns in data such as images, speech, and text.
 
-### V - Verification
-Verified against standard definitions from IBM Education, MIT Technology Review, and official course materials. These sources confirm that while GenAI is a subset of deep learning focused on content creation, AI agents represent a system-level architecture that uses underlying models alongside tools and feedback loops.
+Generative AI (GenAI) refers to AI systems that create new content, including text, images, audio, videos, and computer code, based on patterns learned during training.
 
-### R - Reflection
-Understanding these distinctions prevents treating all AI as generative or assuming every smart tool is an autonomous agent. The key difference between a generative model and an agentic system is that a generative model produces content based on prompt probability, whereas an agentic system uses model outputs to interact with external tools, make decisions, and execute multi-step workflows.
+AI Agent is a system that uses AI models, tools, and feedback to work toward a specific goal. Depending on its design, it can plan tasks, gather information, make decisions, and perform actions with limited human supervision.
 
----
+### Relationship Between These Concepts
 
-## Q2 - Is Everything That Looks Intelligent Actually AI?
+Artificial Intelligence (AI)
 
-### A - Answer
+Machine Learning (ML)
 
-| Scenario | Classification | Reasoning |
-| :--- | :--- | :--- |
-| **A. Calculator ($25 \times 16 = 400$)** | Deterministic / Traditional Software | Follows fixed mathematical algorithms; no learning or statistical inference involved. |
-| **B. Temp Warning (If $Temp > 80^{\circ}C$)** | Rule-Based / Traditional Software | Hardcoded IF-THEN threshold set manually by a human engineer. |
-| **C. Email Spam Filter** | Machine Learning-Based AI | Learns statistical patterns and weights from labeled historical email datasets. |
-| **D. Summary Assistant** | Generative AI | Uses a large language model to synthesize input text and generate a concise summary. |
-| **E. Navigation ETA Predictor** | Machine Learning-Based AI | Predicts travel time using regression models trained on real-time traffic and historical routes. |
+Deep Learning (DL)
 
-#### Explicit Instructions vs. AI Systems
-A traditional program follows explicit, hand-crafted rules written line-by-line by programmers. An AI/ML system infer rules, patterns, and statistical relationships directly from data. When inputs vary or novel situations occur, an AI system generalizes based on its training, whereas traditional software fails unless explicitly programmed for that scenario.
+Generative AI
 
-### E - Evidence
-Evaluating each program's underlying logic confirms whether outputs are determined by fixed logic or learned probabilistic patterns.
+AI Agent: A system that can use AI models and tools to accomplish goals
 
-### V - Verification
-Checked against standard computer science definitions. Rule-based automation yields fixed outcomes for specific inputs, whereas ML models output probabilistic predictions based on data distributions.
+GenAI is commonly built using deep learning. AI agents are a system-level concept and can use different kinds of AI models and tools.
 
-### R - Reflection
-Labeling basic conditional logic (like `if-else` blocks) as "AI" creates false expectations. Understanding this boundary ensures engineering effort is spent on ML only when problem complexity demands pattern recognition over deterministic logic.
+### Real-Life Examples
 
----
+1. AI: A computer program that plays chess.
 
-## Q3 - What Happens When You Ask an LLM a Question?
+2. ML: An email application that identifies spam messages using learned patterns.
 
-### A - Answer
-When a prompt is submitted to a Large Language Model (LLM):
-1. **Tokenization:** The raw text prompt is split into smaller numerical units called **tokens** (words or sub-words).
-2. **Context Assembly:** Tokens are placed into the model's **context window** along with system instructions.
-3. **Model Processing (Inference):** The model passes these numerical tokens through layered neural network weights.
-4. **Probability Distribution:** The model outputs a probability score for every possible next token in its vocabulary.
-5. **Next-Token Selection:** A token is sampled from the distribution and appended to the output.
-6. **Generation Loop:** Steps 3–5 repeat iteratively until an end-of-sequence token is predicted, yielding the **generated response**.
+3. DL: A facial recognition system that identifies a person from an image.
+
+4. GenAI: An application that writes an email or creates an image from a text prompt.
+
+5. AI Agent: A customer support system that checks an order, initiates an eligible refund, and sends a confirmation.
+
+### E — Evidence
+
+AI, ML, and DL are related fields with different scopes. Generative AI commonly uses deep neural networks, while agents combine models with additional software components to perform tasks.
+
+### V — Verification
+
+The definitions can be compared with established AI textbooks, machine learning references, and official technical documentation.
+
+### R — Reflection
+
+Understanding these concepts helps distinguish systems that follow fixed rules, models that learn patterns, tools that generate content, and agents that perform actions. An AI model does not automatically become an agent simply because it produces intelligent responses.
+
+## Q2. Is Everything That Looks Intelligent Actually AI?
+
+### A — Answer
+
+Not every system that appears intelligent uses artificial intelligence. Some applications operate through predefined instructions, while others use models trained on data.
+
+| Scenario                                       | Classification                       | Explanation                                                                 |
+| ---------------------------------------------- | ------------------------------------ | --------------------------------------------------------------------------- |
+| Calculator computing 25 × 16                   | Traditional software                 | Performs arithmetic using predefined operations.                            |
+| Temperature alarm activated above 80°C         | Rule-based software                  | Compares the temperature against a fixed threshold.                         |
+| Email spam detection                           | Machine learning, if trained on data | Identifies patterns associated with spam and legitimate emails.             |
+| Automatic text summarizer using an LLM         | Generative AI                        | Produces a shorter version of the supplied text.                            |
+| Navigation application estimating arrival time | Often machine learning-based         | May use historical traffic, current road conditions, and prediction models. |
+
+### Traditional Programming vs. Artificial Intelligence
+
+Traditional programming: A developer writes explicit instructions describing what the program should do.
+
+Example:
+
+Python
+
+Run
 
 ```
-[Prompt] -> [Tokenization] -> [Context Window] -> [Model Inference] -> [Probability Distribution] -> [Next Token Selection] -> [Generated Response]
+temperature = 85
+
+if temperature > 80:
+    print("Warning: High temperature")
+else:
+    print("Temperature is normal")
 ```
 
-* **Training vs. Inference:** **Training** is the resource-intensive process of adjusting billions of model parameters on huge text datasets to learn statistical relationships. **Inference** is the execution phase where fixed, pre-trained weights process a prompt to predict output tokens.
+Machine learning: A model learns statistical relationships from training examples and applies them to new inputs.
 
-#### Why Fluent AI Can Be False
-An LLM is trained to produce linguistically coherent and statistically plausible text, not to query a database of verified facts. Fluency measures structural probability, while factual accuracy requires ground-truth alignment.
+For example, a spam filter can learn from previously labeled emails instead of relying exclusively on manually written keyword rules.
 
-### E - Evidence
-Technical literature on transformer architectures (e.g., Vaswani et al., "Attention Is All You Need") demonstrates that LLMs operate as probabilistic sequence predictors.
+### E — Evidence
 
-### V - Verification
-Cross-referenced with Andrej Karpathy's lectures ("Intro to Large Language Models") and OpenAI technical docs confirming next-token prediction principles.
+The distinction depends on how a system works internally, rather than how intelligent its output appears.
 
-### R - Reflection
-Because fluency does not equal truth, every factual claim made by an LLM must be verified independently against authoritative sources before being relied upon in engineering work.
+### V — Verification
 
----
+To classify a system correctly, examine whether it uses fixed instructions, learned model parameters, or a combination of both.
 
-## Q4 - Hallucination Experiment: Can AI Sound Confident and Still Be Wrong?
+### R — Reflection
 
-### A - Answer
+Simple software can solve many problems efficiently without AI. Machine learning is particularly useful when identifying patterns from complex data is more practical than writing rules for every possible situation.
 
-| Prompt / Claim | Model A (ChatGPT) | Model B (Gemini) | Verified Claim | Reference Source | Result |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| "What is the speed of light in miles per second?" | 186,282 mi/s | ~186,282 mi/s | 186,282.397 mi/s | NIST Physical Constants | Both models provided accurate approximations. |
+## Q3. What Happens When You Ask a Large Language Model a Question?
 
-#### Reflection
-AI models sound convincing even when wrong because their training optimizes for smooth, plausible grammar and authoritative tone. They lack internal confidence scoring regarding ground truth; they generate authoritative-sounding prose based on standard language patterns.
+### A — Answer
 
-### E - Evidence
-Experimental runs comparing outputs across models against NIST physical standards data.
+A Large Language Model (LLM) processes a prompt and generates a response through several computational steps.
 
-### V - Verification
-Direct comparison against primary physics standards published by official standards organizations (NIST / Bureau International des Poids et Mesures).
+1. Tokenization: The input text is converted into tokens, which may represent words, word fragments, punctuation, or other text units.
 
-### R - Reflection
-High language quality often masks hallucination. Verification requires checking external, primary documentation rather than evaluating how persuasive the AI sounds.
+2. Context preparation: The tokens are combined with relevant conversation history and applicable instructions.
 
----
+3. Model processing: The neural network processes the input using learned parameters and attention mechanisms.
 
-## Q5 - AI Assistant vs. Search vs. Authoritative Reference
+4. Probability calculation: The model calculates a probability distribution over possible next tokens.
 
-### A - Answer
+5. Token selection: A decoding procedure selects the next token based on the distribution and generation settings.
 
-| Dimension | AI Assistant (e.g., Gemini) | Search Engine (e.g., Google) | Authoritative Reference (e.g., Standard / Doc) |
-| :--- | :--- | :--- | :--- |
-| **Accuracy** | High for standard topics; risk of hallucination | Dependent on clicked source | Guaranteed ground truth |
-| **Explanation** | Synthesized, clear, tailored | Scattered across multiple links | Formal, precise, non-synthesized |
-| **Traceability** | Low (unless explicitly cited) | Moderate (URL provided) | High (DOI, page number, standard ID) |
-| **Ease of Use** | Very High (direct answer) | Moderate (requires scanning links) | Moderate to Hard (technical jargon) |
+6. Repeated generation: The selected token is added to the sequence, and the process repeats until a stopping condition is reached.
 
-#### Trade-offs & Recommendations
-* **Use AI Assistant:** For rapid concept explanation, syntax reference, brainstorming, or initial discovery.
-* **Use Search:** For finding recent news, active online communities, or identifying candidate documentation URLs.
-* **Require Authoritative Reference:** For production decisions, sign-offs, formal standards compliance, and safety-critical engineering tasks.
+7. Response delivery: The resulting token sequence is converted into text and presented to the user.
 
-### E - Evidence
-Comparative analysis conducted on standard technical lookup tasks.
+### LLM Processing Flow
 
-### V - Verification
-Verified by checking primary specifications against AI-summarized outputs.
+User enters a prompt
 
-### R - Reflection
-AI accelerates initial learning, but authoritative references remain indispensable for engineering sign-offs.
+Text is converted into tokens
 
----
+Model processes the context
 
-## Q6 - What Is an AI Agent?
+Next-token probabilities are calculated
 
-### A - Answer
+A token is selected
 
-| Concept | Definition |
-| :--- | :--- |
-| **LLM** | Core neural network model predicting next tokens (e.g., GPT-4, Llama 3). |
-| **LLM Application** | Software wrapper providing UI/UX around an LLM call. |
-| **RAG System** | Retrieval-Augmented Generation: retrieves external facts from a vector database to ground LLM prompts. |
-| **Tool-Using Assistant** | LLM setup capable of emitting structured function calls (e.g., calculator, web search). |
-| **AI Agent** | Autonomous workflow system using LLMs for reasoning, memory, tool usage, and iterative planning to execute goal-directed tasks. |
+Generation repeats until completion
 
-```
-[User Goal] -> [Agent Controller] <-> [LLM Reasoning Engine]
-                     |
-                     +---> [Tool Call Request] -> [External API / Script]
-                     |                                    |
-                     +<--- [Tool Result Output] <---------+
-                     |
-               [Final Response]
-```
+Final response is displayed
 
-#### Non-VLSI Agent Example
-An automated trip planner agent: given a goal ("Plan a 3-day trip under $500"), it queries flight APIs, checks hotel availability, calculates total costs using a calculator tool, adjusts selections if over budget, and presents the final booked itinerary.
+### Training vs. Inference
 
-### E - Evidence
-System architecture patterns detailed in agentic frameworks like LangChain, AutoGen, and CrewAI.
+* Training: The model's parameters are adjusted using training data to learn statistical patterns.
 
-### V - Verification
-Verified against published AI engineering standards and agentic workflow guidelines.
+* Inference: The trained model processes a new prompt to generate an output.
 
-### R - Reflection
-An LLM generates text; an AI agent takes action. Distinguishing between model capabilities and system execution prevents misjudging agentic risks.
+### Why Can an LLM Produce Incorrect Information?
 
----
+An LLM generates text based on learned patterns and the supplied context. It does not automatically verify every statement against an authoritative database. Consequently, a response may sound convincing while containing incorrect information.
 
-## Q7 - Where Should Humans Still Make the Decision?
+### E — Evidence
 
-### A - Answer
+Transformer architectures and autoregressive language-modeling methods provide the technical foundation for many modern LLMs.
 
-| Situation | Possible Failure Mode | Required Evidence / Verification | Approval Role |
-| :--- | :--- | :--- | :--- |
-| **1. Safety-Critical Code Deployment** | Silent bugs or security vulnerability | Complete unit tests, static analysis logs | Senior Systems Engineer |
-| **2. Medical / Health Diagnostic Recommendations** | Hallucinated clinical advice or wrong dosage | Clinical trial data, specialist review | Qualified Medical Professional |
-| **3. Legal Contract / Policy Formulation** | Misapplied statutory clauses or liability exposure | Case law review, primary legal codes | Legal Counsel |
-| **4. Financial Investment Allocation** | Incorrect market risk modeling | Audit trails, validated quantitative models | Compliance / Portfolio Manager |
-| **5. Ethical / Hiring Decisions** | Algorithmic bias against demographic groups | Fairness audits, human interview scores | HR Director / Ethics Board |
+### V — Verification
 
-#### Rule for Responsible AI Work
-> **The Responsible AI Rule:** Never delegate final sign-off to an AI for any action where a failure would cause financial, physical, legal, or ethical harm; treat AI outputs as drafts requiring qualified human verification.
+The explanation can be checked against the research paper Attention Is All You Need and official documentation describing language-model inference.
 
-### E - Evidence
-Industry case studies detailing automated failure modes in high-stakes environments.
+### R — Reflection
 
-### V - Verification
-Cross-checked with NIST AI Risk Management Framework (AI RMF) guidelines.
+Fluent language is not proof of factual accuracy. Important technical claims should be checked against reliable documentation, and generated code should be tested before use.
 
-### R - Reflection
-Human oversight is an operational necessity. True engineering responsibility lies in designing verification gates before deployment.
+## Q4. Hallucination Experiment: Can AI Sound Confident and Still Be Wrong?
 
----
+### A — Answer
 
-## Q8 - Find AI Around You
+An AI hallucination occurs when an AI system produces information that is incorrect, fabricated, or unsupported by the available evidence.
 
-### A - Answer
+Consider the following experiment.
 
-| System / Application | AI Involved? | Task Type | Evidence / Reference | Simpler Alternative Possible? |
-| :--- | :--- | :--- | :--- | :--- |
-| **1. Streaming Recommendations** | Yes | Recommendation | Netflix/YouTube Tech Blogs | Yes: Hardcoded top-10 popularity list. |
-| **2. Smartphone Autofocus** | Yes | Computer Vision / Classification | Vendor Camera Tech Specs | Yes: Traditional contrast/phase detection sensors. |
-| **3. Basic Thermostat** | No | Rule-Based Logic | User Manual / Circuit Specs | N/A (Already simple threshold logic). |
-| **4. Voice Assistant Activation** | Yes | Audio Speech Recognition | Wake-word neural network papers | No: Variable noise makes fixed rule matching fail. |
-| **5. Credit Card Fraud Alert** | Yes | Anomaly Detection | Banking Security Tech Notes | Yes: Hardcoded transaction limit rules (high false positive rate). |
+| Question                                   | Example AI Response                                | Verification                                                | Result                  |
+| ------------------------------------------ | -------------------------------------------------- | ----------------------------------------------------------- | ----------------------- |
+| What is the speed of light in a vacuum?    | Approximately 186,282 miles per second             | Compare with the defined speed of light and convert units.  | Correct approximation   |
+| Who wrote a fictional research paper?      | The model supplies an author and publication year. | Search scholarly databases and publisher records.           | Must be verified        |
+| What does a specific software function do? | The model describes its behavior.                  | Check the official API documentation and test the function. | Depends on the evidence |
 
-### E - Evidence
-Public technical blogs, product specifications, and whitepapers from software vendors.
+The speed of light in a vacuum is exactly 299,792,458 metres per second. Its equivalent in miles per second is approximately 186,282.397.
 
-### V - Verification
-Cross-referenced with official engineering blogs detailing ML deployment in everyday consumer products.
+### Why Do Hallucinations Occur?
 
-### R - Reflection
-Many systems market themselves as "AI" when simple deterministic rules are actually used. Verification requires looking for data-driven learning components.
+* The model may generate a plausible continuation without sufficient factual support.
 
----
+* The prompt may be ambiguous or missing essential information.
 
-## Q9 - Prediction, Classification, and Generation
+* The model may lack access to current information.
 
-### A - Answer
+* The training data may contain errors or conflicting statements.
 
-1. **Predicting house prices:** **Prediction** (Regression on numerical factors like size/location).
-2. **Detecting whether an image contains a cat:** **Classification** (Assigning input image to a discrete label class).
-3. **Writing an email from a short instruction:** **Generation** (Producing new sequence of text content).
-4. **Predicting whether a customer will cancel a subscription:** **Prediction / Classification** (Binary classification of churn probability).
-5. **Summarizing a research paper:** **Generation** (Synthesizing text into concise output).
-6. **Identifying whether a transaction is fraudulent:** **Classification** (Labeling transaction as legitimate or fraudulent).
-7. **Generating an image from a text description:** **Generation** (Diffusion-based synthesis of new pixels).
-8. **Predicting the next word/token in a sentence:** **Prediction** (Statistical distribution prediction over vocabulary).
+* The model may combine unrelated facts into an incorrect answer.
 
-#### Why Next-Token Prediction Underpins All LLM Tasks
-Although applications look like summarization, coding, or translation, modern language models perform these tasks by framing everything as sequence completion. By continuously predicting the most statistically sound next token given the prompt context, high-level reasoning and coherent generation emerge from underlying sequence prediction.
+### E — Evidence
 
-### E - Evidence
-Foundational deep learning literature establishing autoregressive language modelling principles.
+A reliable hallucination experiment compares a model's claims with independent evidence, such as scientific standards, original publications, and official documentation.
 
-### V - Verification
-Verified against standard machine learning textbooks (e.g., Goodfellow et al., *Deep Learning*).
+### V — Verification
 
-### R - Reflection
-Recognizing that generation is fundamentally next-token prediction clarifies why context, prompt structure, and token limits dictate LLM behavior.
+Check each claim individually rather than accepting an entire response because some of its statements are correct.
 
----
+### R — Reflection
 
-## Q10 - Design Your Personal AI Verification Protocol
+Confidence, grammar, and presentation style do not guarantee correctness. Independent verification is necessary whenever an incorrect answer could affect a decision or technical outcome.
 
-### A - Answer
+## Q5. AI Assistant vs. Search Engine vs. Authoritative Reference
 
-#### 7-Step Personal AI Verification Protocol
+### A — Answer
 
-1. **Step 1: Problem & Scope Definition:** Explicitly define the problem, expected constraints, and criteria for success before invoking AI.
-   * *Purpose:* Prevents accepting vague or off-target AI outputs.
-2. **Step 2: Assumption Inspection:** Identify and list all underlying assumptions made by the AI in its response.
-   * *Purpose:* Catches hidden false premises or unstated boundary conditions.
-3. **Step 3: Primary Source & Evidence Cross-Check:** Verify facts, data points, or code syntax against authoritative references or official documentation.
-   * *Purpose:* Eliminates hallucinations and unsupported claims.
-4. **Step 4: Empirical / Isolated Testing:** Execute generated code, equations, or logic in a safe, sandboxed test environment.
-   * *Purpose:* Ensures practical correctness rather than mere stylistic fluency.
-5. **Step 5: Edge Case & Boundary Analysis:** Test how the AI output behaves under extreme, missing, or unexpected inputs.
-   * *Purpose:* Identifies fragile logic or failure modes under strain.
-6. **Step 6: Accept / Reject / Revise Decision:** Decide whether to accept as-is, reject entirely, or manually refine the output based on steps 1–5.
-   * *Purpose:* Maintains human engineering ownership over final deliverables.
-7. **Step 7: Documentation & Audit Logging:** Record the prompt, AI response, verification steps taken, and modifications made.
-   * *Purpose:* Ensures full traceability and reproducible engineering practice.
+Different information sources serve different purposes. An AI assistant synthesizes information, a search engine helps discover sources, and an authoritative reference provides documented information within a defined scope.
 
-#### Worked Example: Validating a Python Data Parsing Function
-* **Step 1:** Goal: Parse a CSV containing timestamp logs.
-* **Step 2:** AI assumes standard ISO-8601 date format.
-* **Step 3:** Checked official Python `datetime` documentation for strftime directives.
-* **Step 4:** Ran script in Google Colab using sample CSV data.
-* **Step 5:** Tested with missing rows and non-standard date strings; script failed gracefully with an exception handler.
-* **Step 6:** Accepted after adding explicit exception handling.
-* **Step 7:** Documented prompt, code diff, and test results in `verification-log.md`.
+| Feature             | AI Assistant                         | Search Engine                  | Authoritative Reference                        |
+| ------------------- | ------------------------------------ | ------------------------------ | ---------------------------------------------- |
+| Main purpose        | Explain and generate content         | Find relevant information      | Provide documented facts or specifications     |
+| Explanation         | Usually conversational               | Depends on the pages found     | Often technical and precise                    |
+| Traceability        | Depends on available citations       | Links to source pages          | Usually includes identifiable documentation    |
+| Current information | Depends on model and available tools | Can locate recent publications | Depends on the publication and revision date   |
+| Main limitation     | May generate unsupported claims      | May surface unreliable sources | May require specialized knowledge to interpret |
 
-### E - Evidence
-Developed from software verification and validation protocols (V&V methodology).
+### When Should Each Be Used?
 
-### V - Verification
-Aligned with industry software engineering standards for code review and verification pipelines.
+* AI assistant: For learning concepts, brainstorming, drafting text, and understanding unfamiliar terminology.
 
-### R - Reflection
-A systematic verification protocol transforms AI from a risky, unpredictable tool into a reliable productivity multiplier.
+* Search engine: For discovering recent publications, websites, documentation, and different perspectives.
+
+* Authoritative reference: For confirming technical specifications, standards, legal requirements, and safety-related information.
+
+An authoritative source is not automatically infallible. Its relevance, publication date, scope, and reliability must still be assessed.
+
+### E — Evidence
+
+The comparison is based on the different functions of content-generation systems, information-retrieval systems, and primary technical references.
+
+### V — Verification
+
+Compare AI-generated statements with the original documentation and confirm that the source directly supports the claim.
+
+### R — Reflection
+
+AI tools can accelerate research, but engineers remain responsible for checking sources and establishing that the evidence supports their conclusions.
+
+## Q6. What Is an AI Agent?
+
+### A — Answer
+
+An AI agent is a system designed to pursue a goal by using an AI model, available tools, observations, and an execution process. Some agents operate independently for several steps, while others require approval before performing important actions.
+
+### Important Concepts
+
+| Concept              | Meaning                                                                                              |
+| -------------------- | ---------------------------------------------------------------------------------------------------- |
+| LLM                  | A neural network trained to process and generate language.                                           |
+| LLM application      | Software that connects a language model to an interface and other application features.              |
+| RAG system           | Retrieval-Augmented Generation, which retrieves relevant information and supplies it to a model.     |
+| Tool-using assistant | A system that can request actions through tools such as calculators or APIs.                         |
+| AI agent             | A goal-oriented system that can coordinate model reasoning, tools, observations, and multiple steps. |
+
+### AI Agent Workflow
+
+User specifies a goal
+
+Agent interprets the task and plans steps
+
+Selects and calls an appropriate tool
+
+Receives and evaluates the result
+
+Completes the task or performs another step
+
+### Example: Travel Planning Agent
+
+Suppose a user requests a three-day trip within a budget of ₹25,000.
+
+The agent could:
+
+1. Collect travel dates and destination preferences.
+
+2. Retrieve available transport and accommodation options.
+
+3. Calculate estimated costs using a calculator.
+
+4. Compare the results with the budget.
+
+5. Revise the itinerary if the estimated cost exceeds the limit.
+
+6. Present the proposed itinerary for review.
+
+Bookings or payments should require appropriate authorization before execution.
+
+### E — Evidence
+
+Agent architectures commonly combine language models, tools, task orchestration, and feedback from external systems.
+
+### V — Verification
+
+A system should be evaluated for task completion, tool-call correctness, error recovery, and compliance with permission boundaries.
+
+### R — Reflection
+
+An LLM primarily processes and generates content. An agent uses a broader software workflow to achieve goals, which introduces additional concerns involving permissions, reliability, and unintended actions.
+
+## Q7. Where Should Humans Still Make the Decision?
+
+### A — Answer
+
+Human oversight is important whenever AI-assisted decisions may significantly affect people's safety, rights, finances, or opportunities.
+
+| Situation                           | Potential Risk                                | Verification Required                        | Human Responsibility                 |
+| ----------------------------------- | --------------------------------------------- | -------------------------------------------- | ------------------------------------ |
+| Safety-critical software deployment | Defects or security vulnerabilities           | Testing, code review, security analysis      | Authorized engineering reviewer      |
+| Medical recommendations             | Incorrect interpretation or treatment advice  | Clinical evidence and qualified review       | Healthcare professional              |
+| Legal document preparation          | Incorrect clauses or legal interpretation     | Current legislation and legal review         | Qualified legal professional         |
+| Financial decisions                 | Incorrect assumptions or underestimated risks | Validated calculations and risk assessment   | Responsible financial decision-maker |
+| Hiring and recruitment              | Bias or inaccurate candidate assessments      | Job-related evidence and fairness evaluation | Authorized hiring personnel          |
+
+### Principles for Responsible AI Use
+
+1. Treat AI-generated results as outputs that may require verification.
+
+2. Match the level of review to the potential consequences of an error.
+
+3. Test systems under realistic and unusual conditions.
+
+4. Protect confidential and personal information.
+
+5. Maintain records of significant decisions and verification steps.
+
+6. Obtain human authorization for consequential actions when required.
+
+### E — Evidence
+
+Risk-management frameworks, including the NIST AI Risk Management Framework, provide guidance for identifying, assessing, and managing AI-related risks.
+
+### V — Verification
+
+A responsible deployment process should define review requirements, testing criteria, accountability, and escalation procedures before the system is used.
+
+### R — Reflection
+
+Human oversight is not simply a final formality. It should be incorporated into the design, testing, deployment, and monitoring of systems where failures could have serious consequences.
+
+## Q8. Find AI Around You
+
+### A — Answer
+
+Many everyday applications use AI, while others rely on traditional programming. Some combine both approaches.
+
+| Application                     | AI Involved?              | Possible Technique                                 | Alternative or Supporting Method                    |
+| ------------------------------- | ------------------------- | -------------------------------------------------- | --------------------------------------------------- |
+| Video streaming recommendations | Often yes                 | Recommendation models                              | Display popular content using fixed rankings        |
+| Smartphone camera autofocus     | Depends on implementation | Computer vision or learned image-processing models | Contrast detection or phase-detection techniques    |
+| Basic temperature thermostat    | Not necessarily           | A simple model is not required                     | Fixed temperature thresholds                        |
+| Voice assistant                 | Commonly yes              | Speech recognition and learned wake-word detection | Limited command matching in controlled environments |
+| Credit card fraud detection     | Often yes                 | Classification and anomaly detection               | Fixed transaction rules and thresholds              |
+
+### E — Evidence
+
+Product documentation, engineering publications, and technical descriptions can help establish which methods are used by a particular implementation.
+
+### V — Verification
+
+The presence of an AI-branded feature does not prove that every component uses machine learning. Confirm the actual implementation where possible.
+
+### R — Reflection
+
+Understanding AI in everyday applications helps identify where learned patterns provide benefits and where simpler, deterministic methods may be sufficient.
+
+## Q9. Prediction, Classification, and Generation
+
+### A — Answer
+
+Machine learning and AI applications can be grouped by the type of output they produce. These categories can overlap, depending on the system's design.
+
+| Task                                                     | Main Category                      | Explanation                                             |
+| -------------------------------------------------------- | ---------------------------------- | ------------------------------------------------------- |
+| Estimating a house's market price                        | Prediction / Regression            | Estimates a numerical value.                            |
+| Determining whether an image contains a cat              | Classification                     | Assigns an image to a category.                         |
+| Writing an email from an instruction                     | Generation                         | Produces new text.                                      |
+| Estimating whether a customer will cancel a subscription | Classification / Prediction        | Estimates a churn probability or assigns a churn label. |
+| Summarizing a research paper                             | Generation                         | Produces a shorter representation of the source.        |
+| Identifying fraudulent transactions                      | Classification / Anomaly detection | Identifies transactions that may be fraudulent.         |
+| Creating an image from a text description                | Generation                         | Produces new visual content.                            |
+| Estimating the next token in a sentence                  | Prediction                         | Assigns probabilities to possible next tokens.          |
+
+### Why Is Next-Token Prediction Important for LLMs?
+
+Many autoregressive language models generate text by predicting one token at a time. This mechanism can support tasks such as summarization, translation, question answering, and code generation.
+
+For example, when asked to summarize a paragraph, the model generates a new sequence of tokens that represents the main information in a shorter form.
+
+However, not every AI system uses next-token prediction. Image generators, classifiers, and other models may use different architectures and objectives.
+
+### E — Evidence
+
+Machine learning textbooks describe regression, classification, and generative modeling as different approaches to learning and producing outputs.
+
+### V — Verification
+
+The classification of a task should be based on its intended output and the model's actual objective, not just the wording of the user request.
+
+### R — Reflection
+
+Recognizing the differences between prediction, classification, and generation helps select suitable methods and evaluate whether a system is producing the expected type of result.
+
+## Q10. Design Your Personal AI Verification Protocol
+
+### A — Answer
+
+A personal AI verification protocol is a repeatable procedure for evaluating AI-generated information before using it in an assignment, program, or engineering task.
+
+### Seven-Step Verification Process
+
+Step 1: Define the problem
+
+Specify the task, expected result, constraints, and success criteria.
+
+Step 2: Identify assumptions
+
+Determine whether the response depends on unstated conditions, missing inputs, or uncertain facts.
+
+Step 3: Check reliable sources
+
+Verify factual claims against official documentation, original research, or relevant standards.
+
+Step 4: Test the output
+
+Run generated code in a safe environment and check calculations with independent methods.
+
+Step 5: Evaluate edge cases
+
+Test missing values, unexpected inputs, boundary conditions, and failure scenarios.
+
+Step 6: Accept, revise, or reject
+
+Make a decision based on the evidence, test results, and requirements.
+
+Step 7: Document the process
+
+Record the prompt, generated output, sources checked, tests performed, and changes made.
+
+### Worked Example: Verifying a Python CSV Parser
+
+Suppose an AI generates a Python function that reads timestamps from a CSV file.
+
+* Step 1: Define the requirement: read timestamps and convert them into valid date-time objects.
+
+* Step 2: Identify assumptions: the generated function may assume a specific date format and column name.
+
+* Step 3: Check the official Python documentation for the CSV and date-time functions used.
+
+* Step 4: Run the function against a small sample file.
+
+* Step 5: Test empty fields, malformed timestamps, missing columns, and duplicate rows.
+
+* Step 6: Correct any errors and verify that the revised function meets the requirements.
+
+* Step 7: Record the final code, test cases, results, and relevant documentation.
+
+### E — Evidence
+
+Software verification and validation practices provide a foundation for checking whether a solution meets its requirements and behaves correctly.
+
+### V — Verification
+
+A protocol is effective when it produces repeatable checks, identifies errors, and provides enough documentation for another person to review the results.
+
+### R — Reflection
+
+A structured verification process reduces dependence on the apparent confidence of AI-generated answers. It encourages evidence-based decisions, safer implementation, and greater accountability.
+
+## Overall Conclusion
+
+Artificial intelligence includes a range of techniques, from traditional rule-based systems to machine learning and generative models. AI agents extend these capabilities by coordinating models, tools, and multi-step workflows.
+
+The key lesson from Week 01 is that AI-generated information should be evaluated according to evidence, testing, and the consequences of potential errors. Understanding how these systems work enables students and engineers to use them more effectively while retaining responsibility for the final result.
