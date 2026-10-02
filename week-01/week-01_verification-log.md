@@ -1,12 +1,31 @@
-# Week 01 Verification Log
+# Week 01 Verification Log — Revised Version
 
-| Date | Question / Claim Checked | AI Tool | Claim Checked | Verification Source / Experiment | Result |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| 2026-09-28 | Q4: Speed of light accuracy | ChatGPT / Gemini | Claimed speed is ~186,282 miles/sec | NIST Physical Measurement Laboratory Standards | Verified: Exact value is 186,282.397 mi/s. Both models provided accurate approximations. |
-| 2026-09-29 | Q5: Technical specification lookup | ChatGPT | Syntax for Python string formatting | Official Python 3.12 Documentation | Verified: AI code sample matched standard library documentation. |
-| 2026-09-30 | Q8: AI in camera autofocus | Claude | Smartphone uses ML neural net for face tracking | Manufacturer Whitepaper / Tech Specs | Verified: Modern smartphones use deep learning models for subject detection. |
+| Date       | Question / Claim Checked        | AI Tool          | Claim Checked                                                                | Verification Source / Experiment                                                   | Result                                                                                                                                    |
+| ---------- | ------------------------------- | ---------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| 2026-09-28 | Q4: Speed of light              | ChatGPT / Gemini | The speed of light is approximately 186,282 miles per second.                | NIST Physical Measurement Laboratory: speed of light constant and unit conversion. | Verified: The accepted value is approximately 186,282.397 miles per second. Both responses were accurate approximations.                  |
+| 2026-09-29 | Q5: Python string formatting    | ChatGPT          | The suggested syntax for formatting strings is supported by Python.          | Official Python 3.12 documentation and a small code test.                          | Verified: The tested syntax matched the documented behavior for the tested example.                                                       |
+| 2026-09-30 | Q8: Smartphone camera autofocus | Claude           | The smartphone uses machine learning for face tracking or subject detection. | Manufacturer technical documentation and camera technology specifications.         | Partially verified: The claim requires documentation for the specific smartphone model to establish which functions use machine learning. |
 
 ## Verification Notes
-* **What the AI got right:** Basic definitions, clear conceptual explanations, and syntax examples for standard libraries.
-* **What it left unsupported / struggled with:** Specific citations without live web search access; generated references can sometimes sound plausible but be inaccurate.
-* **Key lesson:** Language fluency is an indicator of model capability, not factual accuracy. Always verify specific facts against primary sources.
+
+1. What the AI tools got right
+
+* Provided clear explanations of basic AI and machine learning concepts.
+
+* Produced useful examples of standard programming syntax.
+
+* Gave an accurate approximation of the speed of light.
+
+2. What required further verification
+
+* Some technical claims lacked direct citations to primary sources.
+
+* General statements about smartphone camera technology could not establish the implementation used in a particular device.
+
+* AI-generated references and explanations required independent confirmation.
+
+3. Key Lesson
+
+Language fluency does not guarantee factual accuracy. AI-generated information should be checked against reliable primary sources, official technical documentation, and practical experiments before it is accepted.
+
+Conclusion: This verification exercise demonstrates that AI tools can support learning and technical work, but independent evidence and human judgment remain essential for establishing correctness.
