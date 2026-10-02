@@ -1,6 +1,6 @@
 # Week 01 AI Engineering Journal
 
-Date: Friday, 2 October 2026 Track: DFT (Design for Test)
+Date: Friday, 2 October 2026 Track: VLSI_DFT (Design for Test)
 
 ## Weekly Reflection Table
 
