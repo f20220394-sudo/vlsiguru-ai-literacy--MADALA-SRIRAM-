@@ -1,84 +1,57 @@
-# Week 01 AI Assistant Comparison — Revised Version
+# Week 01 — AI Assistant Comparison
 
-## 1. Objective
+## Common Prompt
 
-The objective of this comparison is to evaluate how two AI assistants explain Machine Learning (ML), Deep Learning (DL), and Generative AI (GenAI) to a beginner engineer. The comparison focuses on conceptual accuracy, clarity, technical detail, and ease of verification.
+"Explain the difference between Artificial Intelligence, Machine Learning, Deep Learning, and Generative AI to a beginner engineering student. Give one everyday example of each."
 
-## 2. Common Prompt
+## Tool 1: ChatGPT
 
-> “Explain the difference between Machine Learning, Deep Learning, and Generative AI to a beginner engineer, and provide an everyday example for each.”
+**Answer summary:** ChatGPT explained the relationship between AI, ML, DL, and GenAI using definitions and examples.
 
-## 3. Tool 1: ChatGPT (GPT-4o)
+**Strengths:**
+- Organized explanations suitable for beginners.
+- Clear distinction between the four concepts.
+- Useful examples for understanding the terminology.
 
-Answer Summary: ChatGPT explained the relationship between ML, DL, and GenAI using a hierarchy analogy. It described ML as learning patterns from data, DL as learning through multilayer neural networks, and GenAI as producing new content.
+**Limitations:**
+- Simplified explanations may leave out technical details.
+- Important factual claims still need independent verification.
 
-Strengths
+## Tool 2: Google Gemini
 
-* Clear explanations and well-organized formatting.
+**Answer summary:** Gemini was used to explain the same concepts and provide examples.
 
-* Beginner-friendly analogies that make complex concepts easier to understand.
+**Strengths:**
+- Provides an alternative explanation of the same topic.
+- Can help identify additional examples or differences in wording.
+- May provide links or references that can be checked.
 
-* Relevant everyday examples for each concept.
+**Limitations:**
+- The quality and detail of the response depend on the prompt and model output.
+- Any claims or references need to be checked.
 
-Limitations
+## Comparison
 
-* The explanation was mostly conceptual and provided limited implementation detail.
+| Criterion | ChatGPT | Gemini |
+|---|---|---|
+| Clarity | Evaluate the actual response | Evaluate the actual response |
+| Technical accuracy | Check against reliable references | Check against reliable references |
+| Examples | Record examples provided | Record examples provided |
+| Traceability | Record citations or links supplied | Record citations or links supplied |
+| Overall usefulness | Based on my review | Based on my review |
 
-* It could have discussed the limitations of learned models and the need to verify generated information.
+## Reference Sources
 
-* The explanation of the relationship between the three fields could have included more technical nuance.
+IBM — What is Machine Learning?  
+https://www.ibm.com/think/topics/machine-learning
 
-## 4. Tool 2: Gemini
+Vaswani et al. — Attention Is All You Need  
+https://arxiv.org/abs/1706.03762
 
-Answer Summary: Gemini defined ML, DL, and GenAI while emphasizing the role of training data, neural network architectures, and content generation. It used structured examples to distinguish the concepts.
+These sources can support relevant definitions and technical background. They do not automatically verify every statement produced by either assistant.
 
-Strengths
+## Conclusion
 
-* Clear differentiation between traditional machine learning and deep learning.
+Comparing AI assistants helps me understand that different tools can explain the same topic in different ways. I should evaluate clarity, accuracy, evidence, and limitations rather than assuming that one assistant is always correct.
 
-* Useful discussion of data types and neural network applications.
-
-* Concise explanations that support quick revision.
-
-Limitations
-
-* Some technical details may require additional explanation for beginners.
-
-* Denser formatting can make the concepts less intuitive for some readers.
-
-* Technical claims still require independent verification.
-
-## 5. Authoritative References
-
-The following resources can be used to verify the concepts discussed:
-
-* IBM: [Machine Learning](https://www.ibm.com/think/topics/machine-learning)
-
-* IBM: [Deep Learning](https://www.ibm.com/think/topics/deep-learning)
-
-* MIT Technology Review: [Artificial Intelligence](https://www.technologyreview.com/topic/artificial-intelligence/)
-
-These references provide background information about AI, ML, and deep learning. For precise technical claims, the relevant article or technical documentation should be checked directly.
-
-## 6. Final Comparison
-
-| Evaluation Criteria    | ChatGPT                       | Gemini                            |
-| ---------------------- | ----------------------------- | --------------------------------- |
-| Conceptual explanation | Clear and beginner-friendly   | Clear and structured              |
-| Technical detail       | Primarily introductory        | Emphasizes technical distinctions |
-| Analogies and examples | Uses intuitive explanations   | Uses structured examples          |
-| Source traceability    | Depends on citations provided | Depends on citations provided     |
-| Ease of understanding  | Conversational presentation   | Concise, organized presentation   |
-| Need for verification  | Yes                           | Yes                               |
-
-Note: This table reflects the observations recorded in this comparison, not an independent benchmark of the two models.
-
-## 7. Lesson Learned
-
-Comparing multiple AI assistants can reveal similarities and differences in their explanations. One model may communicate a concept more intuitively, while another may emphasize technical distinctions or provide useful source links.
-
-However, agreement between two AI models does not independently establish that a claim is correct. Both models may rely on similar information or reproduce the same misconception. Therefore, important technical statements should be checked against authoritative documentation, and generated code should be tested when applicable.
-
-Conclusion: AI assistants are useful for learning, summarizing, and exploring technical concepts. Combining their explanations with reliable references and independent verification supports a more evidence-based approach to engineering.
-
-Would you like the next version to be more formal for submission or shorter for handwritten notes?
+**Before submission:** Fill in the comparison table using the responses you actually received from ChatGPT and Gemini. Do not claim that either response supplied a source or example unless it did.
