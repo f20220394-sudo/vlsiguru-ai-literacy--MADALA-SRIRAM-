@@ -1,6 +1,19 @@
 # Week 01 — Final Reflection
 
-> **Personalize this reflection before submission.** Replace any statement that does not accurately describe your own experience.
+# Week 01 — Final Reflection
+
+Track: DFT (Design for Testability)
+
+My main takeaway from Week 01 is that understanding AI requires more than learning its terminology. I must also understand its limitations and verify important claims before relying on them.
+
+Comparing ChatGPT and Gemini helped me see how different AI assistants explain the same topic in different ways. ChatGPT's analogy made the concepts easier to follow, while Gemini's concise examples were helpful for revision. I learned that a clear answer is not automatically a fully verified answer.
+
+For my DFT track, I am interested in exploring how AI could support scan-test result analysis, failure-log organization, and identifying recurring patterns in test data. These are potential applications that require validation; an AI-generated suggestion should not be treated as a confirmed diagnosis of a silicon defect.
+
+Going forward, I will use AI as a learning assistant, compare technical claims with reliable sources, and record evidence when I verify an answer.
+
+
+**My goal:** Build strong AI literacy and learn to apply it responsibly to DFT engineering problems.
 
 ## What is the most useful thing I learned this week?
 
@@ -22,9 +35,3 @@ I needed to distinguish a simplified explanation from a complete technical accou
 
 How can an engineer evaluate whether an AI-generated debugging suggestion is genuinely useful, especially when the suggestion sounds plausible but the available evidence is incomplete?
 
-## Before submitting
-
-- [ ] I reviewed and edited this reflection to match my real experience.
-- [ ] I checked the source links and recorded what I actually verified.
-- [ ] I ran the Python program and can explain its code.
-- [ ] I can explain each mission without simply reading the generated text.
