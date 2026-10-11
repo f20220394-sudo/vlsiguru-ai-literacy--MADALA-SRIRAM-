@@ -1,5 +1,5 @@
 
-"""Week 01: Is it really AI?"""
+"""VLSIGuru AI Literacy - Week 01"""
 
 examples = {
     "Calculator": "Traditional software",
