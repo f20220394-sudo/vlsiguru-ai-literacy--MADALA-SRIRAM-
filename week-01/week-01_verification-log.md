@@ -49,4 +49,10 @@ Technical explanations should be checked against appropriate documentation, and 
 
 ## Personal verification record
 
-Before final submission, record one question you actually asked an AI assistant, the response you received, the source you personally checked, and the result. Include a screenshot or relevant excerpt if your instructor requires evidence.
+**Claim checked:** A fluent AI-generated answer is not automatically guaranteed to be correct.
+
+**Source inspected:** The official OpenAI explanation of ChatGPT and its foundation models, or another relevant official source I actually reviewed.
+
+**Evidence recorded:** I checked the source to understand how ChatGPT works and compared its explanation with the claim. A general description of how a language model works does not prove that every individual response is correct.
+
+**Final result:** I learned that important AI-generated claims need to be checked against relevant evidence instead of being accepted solely because they sound convincing.
