@@ -1,37 +1,36 @@
 # Week 01 — Final Reflection
 
-# Week 01 — Final Reflection
+**Program:** VLSIGuru AI Literacy Layer  
+**Track:** DFT (Design for Testability)
 
-Track: DFT (Design for Testability)
+## My Main Takeaway
 
-My main takeaway from Week 01 is that understanding AI requires more than learning its terminology. I must also understand its limitations and verify important claims before relying on them.
+My biggest takeaway from Week 01 is that AI literacy involves more than knowing how to use AI tools. It also requires understanding their limitations, checking important claims, and taking responsibility for how their outputs are used.
 
-Comparing ChatGPT and Gemini helped me see how different AI assistants explain the same topic in different ways. ChatGPT's analogy made the concepts easier to follow, while Gemini's concise examples were helpful for revision. I learned that a clear answer is not automatically a fully verified answer.
+## What I Learned from ChatGPT and Gemini
 
-For my DFT track, I am interested in exploring how AI could support scan-test result analysis, failure-log organization, and identifying recurring patterns in test data. These are potential applications that require validation; an AI-generated suggestion should not be treated as a confirmed diagnosis of a silicon defect.
+I compared ChatGPT and Gemini using the same prompt about Machine Learning, Deep Learning, and Generative AI. ChatGPT's concentric-circles analogy made the relationships easier to understand, while Gemini's concise examples were useful for revision.
 
-Going forward, I will use AI as a learning assistant, compare technical claims with reliable sources, and record evidence when I verify an answer.
+The comparison showed me that different assistants can provide different explanations of the same topic. Their responses can be useful starting points, but I should check important technical claims against reliable references.
+
+## Applying This Learning to DFT
+
+In my DFT track, I want to explore potential uses of AI in scan-test result analysis, failure-log organization, and identifying recurring patterns in test data.
+
+For example, an AI assistant might help summarize a collection of test failures. However, the summary alone would not establish the actual root cause of a silicon defect. The engineer must examine the evidence and validate any proposed explanation.
+
+This connection helped me see how AI literacy could support my future engineering work without replacing technical knowledge or engineering judgment.
+
+## What I Need to Improve
+
+I need more practice checking technical claims independently, identifying the limitations of AI-generated explanations, and distinguishing evidence from assumptions.
+
+## My Commitment
+
+I will use AI as a learning assistant rather than an unquestioned source of truth. When accuracy matters, I will consult reliable documentation, record the evidence I find, and acknowledge uncertainty.
 
 
-**My goal:** Build strong AI literacy and learn to apply it responsibly to DFT engineering problems.
 
-## What is the most useful thing I learned this week?
+## Final Reflection
 
-The most useful idea was the ASK → CHECK → TRY → EXPLAIN method. It gives me a practical way to use AI for learning while checking important claims and explaining the result in my own words.
-
-## What did I initially misunderstand?
-
-I initially treated a confident, well-written AI answer as if it were necessarily correct. I now understand that fluent wording is not proof, and important claims need independent verification.
-
-## What did AI help me to do?
-
-AI helped me organize the Week 01 concepts, create beginner-friendly explanations, and plan a small Python exercise. I still need to review the material and make sure I can explain each part myself.
-
-## Where did I need to verify or correct AI?
-
-I needed to distinguish a simplified explanation from a complete technical account. For example, next-token prediction is a useful starting mental model for an LLM, but it does not explain every detail of model architecture or guarantee factual accuracy.
-
-## What is one question I want answered on Saturday?
-
-How can an engineer evaluate whether an AI-generated debugging suggestion is genuinely useful, especially when the suggestion sounds plausible but the available evidence is incomplete?
-
+Week 01 gave me a foundation for using AI more responsibly. As I continue through the DFT track, I want to combine AI-assisted learning with source verification, practical testing, and independent engineering reasoning.
