@@ -1,35 +1,20 @@
-# Week 01 AI Engineering Journal
+# Week 01 — AI Engineering Journal
 
-Date: Friday, 2 October 2026 Track: VLSI_DFT (Design for Test)
+## What I learned
+I learned that AI is a broad field, machine learning is one approach within AI, deep learning uses multilayer neural networks, and generative AI produces content such as text, images, and code. I also learned that AI-generated output must be checked rather than accepted automatically.
 
-## Weekly Reflection Table
+## What I initially misunderstood
+I needed to distinguish a fluent explanation from a verified answer. A response can sound convincing while still being incomplete or incorrect.
 
-| Field                                      | Reflection                                                                                                                                                     |
-| ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| What I learned that was genuinely new      | I learned how Large Language Models generate responses through next-token prediction and why fluent, well-structured answers are not always factually correct. |
-| One AI output I initially trusted          | An AI-generated explanation of agentic workflows and how AI agents interact with tools to complete multi-step tasks.                                           |
-| How I verified it                          | I compared the explanation with technical documentation on LangChain architectures and NIST AI risk management guidance.                                       |
-| What the AI did well                       | AI helped me simplify complex technical concepts, organize information into concise bullet points, and create structured assessment templates.                 |
-| What the AI could not be trusted to decide | I learned that AI-generated claims cannot be assumed to be factually correct without checking reliable sources and supporting evidence.                        |
-| One question I still have                  | How do AI agents maintain, update, and retrieve memory across long, multi-turn execution workflows?                                                            |
-| What I will do differently next week       | I will apply my seven-step AI verification protocol from the beginning of each task, rather than relying only on an initial review of the generated output.    |
+## What AI helped me do
+AI helped me organize concepts, generate beginner-friendly explanations, and plan how to approach the Week 01 activities.
 
-## Notes and Key Takeaways
+## What I needed to verify
+Important technical claims need to be checked against reliable sources. A source should directly support the claim being made, and I should understand what the source does not prove.
 
-* GitHub repository: Established the initial structure of my public repository, [vlsiguru-ai-literacy--MADALA-SRIRAM-](https://github.com/f20220394-sudo/vlsiguru-ai-literacy--MADALA-SRIRAM-), to organize my AI literacy learning and assessment work.
+## How I will use AI responsibly
+I will use AI as a learning assistant, check important facts, test code when possible, protect confidential information, and take responsibility for the work I submit.
 
-* Python practice: Started CS50P Week 0, focusing on functions and variables, to strengthen my programming fundamentals.
+## Question I still have
+How can engineers systematically evaluate whether an AI-generated debugging suggestion is correct when the available evidence is incomplete?
 
-* Assessment completion: Worked through the core Week 01 assessment tasks using the A-E-V-R framework: Answer, Evidence, Verification, and Reflection.
-
-* Responsible AI practice: Learned the importance of checking AI-generated information against authoritative documentation and practical experiments.
-
-* Engineering mindset: Recognized that AI should support technical reasoning rather than replace independent verification and engineering judgment.
-
-## Weekly Reflection
-
-This week helped me understand the difference between generating a convincing answer and producing a verified result. I explored the fundamentals of AI, machine learning, deep learning, generative AI, and AI agents. I also learned how to compare AI assistants and evaluate their responses using external evidence.
-
-As a DFT learner, I want to develop a disciplined approach to technical problem-solving. Next week, I will focus on strengthening my Python skills, maintaining clear verification records, and investigating how agent memory works across multi-step workflows.
-
-My key takeaway: Use AI to accelerate learning, use evidence to verify its outputs, and take responsibility for the final result.
