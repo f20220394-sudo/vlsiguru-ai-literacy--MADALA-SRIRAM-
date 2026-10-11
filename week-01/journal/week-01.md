@@ -1,20 +1,35 @@
-# Week 01 — AI Engineering Journal
+# Week 01 AI Engineering Journal — The AI Landscape
 
-## What I learned
-I learned that AI is a broad field, machine learning is one approach within AI, deep learning uses multilayer neural networks, and generative AI produces content such as text, images, and code. I also learned that AI-generated output must be checked rather than accepted automatically.
+**Track:** DFT (Design for Testability)
 
-## What I initially misunderstood
-I needed to distinguish a fluent explanation from a verified answer. A response can sound convincing while still being incomplete or incorrect.
+## What I Learned
 
-## What AI helped me do
-AI helped me organize concepts, generate beginner-friendly explanations, and plan how to approach the Week 01 activities.
+During Week 01, I learned the differences between Artificial Intelligence, Machine Learning, Deep Learning, Generative AI, and AI agents. I also learned that AI-generated answers can sound confident without always being accurate, so important claims should be verified using reliable sources.
 
-## What I needed to verify
-Important technical claims need to be checked against reliable sources. A source should directly support the claim being made, and I should understand what the source does not prove.
+## Connecting AI Literacy to DFT
 
-## How I will use AI responsibly
-I will use AI as a learning assistant, check important facts, test code when possible, protect confidential information, and take responsibility for the work I submit.
+As a DFT learner, I can explore how AI may assist semiconductor test engineering. For example, AI could help organize scan-test failure logs, identify recurring patterns in test results, or summarize possible causes of test failures.
 
-## Question I still have
-How can engineers systematically evaluate whether an AI-generated debugging suggestion is correct when the available evidence is incomplete?
+However, these are potential applications, not proof that AI can independently diagnose a real chip failure. Engineers must validate suggestions using test data, design information, and established verification methods.
 
+## My Learning Experience
+
+I compared ChatGPT and Gemini using the same prompt about Machine Learning, Deep Learning, and Generative AI. ChatGPT's concentric-circles analogy was easy to understand, while Gemini's concise examples were useful for revision.
+
+This comparison taught me to evaluate an assistant based on clarity and evidence rather than presentation alone.
+
+## My Verification Approach
+
+When using AI for DFT learning, I will:
+1. Identify the technical claim or suggested explanation.
+2. Check it against course material or reliable technical documentation.
+3. Compare AI suggestions with actual test evidence when available.
+4. Record what the evidence supports and what remains uncertain.
+
+## Question I Still Have
+
+How could AI help identify patterns in scan-test failures while avoiding incorrect conclusions about the root cause?
+
+## Plan for Week 02
+
+I will continue learning AI fundamentals and explore carefully validated applications of AI in DFT and semiconductor test engineering.
