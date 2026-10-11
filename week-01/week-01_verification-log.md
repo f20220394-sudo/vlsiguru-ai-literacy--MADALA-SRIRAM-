@@ -1,31 +1,52 @@
-# Week 01 Verification Log — Revised Version
+# Week 01 — AI Verification Log
 
-| Date       | Question / Claim Checked        | AI Tool          | Claim Checked                                                                | Verification Source / Experiment                                                   | Result                                                                                                                                    |
-| ---------- | ------------------------------- | ---------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| 2026-09-28 | Q4: Speed of light              | ChatGPT / Gemini | The speed of light is approximately 186,282 miles per second.                | NIST Physical Measurement Laboratory: speed of light constant and unit conversion. | Verified: The accepted value is approximately 186,282.397 miles per second. Both responses were accurate approximations.                  |
-| 2026-09-29 | Q5: Python string formatting    | ChatGPT          | The suggested syntax for formatting strings is supported by Python.          | Official Python 3.12 documentation and a small code test.                          | Verified: The tested syntax matched the documented behavior for the tested example.                                                       |
-| 2026-09-30 | Q8: Smartphone camera autofocus | Claude           | The smartphone uses machine learning for face tracking or subject detection. | Manufacturer technical documentation and camera technology specifications.         | Partially verified: The claim requires documentation for the specific smartphone model to establish which functions use machine learning. |
+## Objective
+The objective of this activity is to check whether an AI-generated answer is correct, complete, and supported by reliable evidence.
 
-## Verification Notes
+## Experiment 1: Can an AI Sound Confident and Still Be Wrong?
 
-1. What the AI tools got right
+**Prompt used:**
 
-* Provided clear explanations of basic AI and machine learning concepts.
+"Does a fluent and confident answer from a large language model guarantee that the information is correct?"
 
-* Produced useful examples of standard programming syntax.
+**AI answer summary:**
 
-* Gave an accurate approximation of the speed of light.
+A language model can generate fluent and convincing text, but fluency does not guarantee factual accuracy. Some answers may contain incorrect or unsupported information.
 
-2. What required further verification
+**Verification source:**
 
-* Some technical claims lacked direct citations to primary sources.
+OpenAI — How ChatGPT and our foundation models are developed  
+https://openai.com/index/how-chatgpt-and-our-foundation-models-are-developed/
 
-* General statements about smartphone camera technology could not establish the implementation used in a particular device.
+**Verification method:**
 
-* AI-generated references and explanations required independent confirmation.
+I compared the general claim with the source's explanation of how language models generate responses. The source helps explain the generation process, but it does not independently verify every possible answer.
 
-3. Key Lesson
+**Result:** The claim that confidence guarantees correctness is not valid.
 
-Language fluency does not guarantee factual accuracy. AI-generated information should be checked against reliable primary sources, official technical documentation, and practical experiments before it is accepted.
+**Lesson learned:**
 
-Conclusion: This verification exercise demonstrates that AI tools can support learning and technical work, but independent evidence and human judgment remain essential for establishing correctness.
+AI-generated answers should be checked against reliable sources. A convincing explanation is not a substitute for evidence.
+
+## Experiment 2: How Does an LLM Generate Text?
+
+**Question:** Does an autoregressive language model generate text by predicting tokens sequentially?
+
+**Verification source:**
+
+Vaswani et al., *Attention Is All You Need*  
+https://arxiv.org/abs/1706.03762
+
+**Verification method:**
+
+I reviewed the research paper's description of the Transformer architecture and compared it with the simplified explanation of next-token generation.
+
+**Result:** The paper supports the use of Transformer architectures in sequence-processing tasks. The next-token explanation is a simplified mental model and should not be treated as a complete description of every language model.
+
+**Lesson learned:**
+
+Technical explanations should be checked against appropriate documentation, and the limitations of a source must be understood.
+
+## Personal verification record
+
+Before final submission, record one question you actually asked an AI assistant, the response you received, the source you personally checked, and the result. Include a screenshot or relevant excerpt if your instructor requires evidence.
