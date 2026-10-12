@@ -40,20 +40,20 @@ I independently reviewed and verified the important factual or technical claims 
 
 ## Learning Objectives
 
-- [ ] Understand machine learning basics
-- [ ] Understand data and features
-- [ ] Learn supervised and unsupervised learning
-- [ ] Understand training and testing
-- [ ] Learn model evaluation and common ML errors
-- [ ] Explore an ML application related to semiconductor design and DFT
+- [x] Understand machine learning basics
+- [x] Understand data and features
+- [x] Learn supervised and unsupervised learning
+- [x] Understand training and testing
+- [x] Learn model evaluation and common ML errors
+- [x] Explore an ML application related to semiconductor design and DFT
 
 ## Deliverables Checklist
 
-- [ ] ML concepts and learning approaches
-- [ ] ML tasks and model anatomy
-- [ ] Model evaluation and failure modes
-- [ ] When to use ML
-- [ ] Semiconductor case study
-- [ ] ML lifecycle map
-- [ ] Sources and reflection
+- [x] ML concepts and learning approaches
+- [x] ML tasks and model anatomy
+- [x] Model evaluation and failure modes
+- [x] When to use ML
+- [x] Semiconductor case study
+- [x] ML lifecycle map
+- [x] Sources and reflection
 
