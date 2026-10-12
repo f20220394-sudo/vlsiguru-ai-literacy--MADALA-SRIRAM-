@@ -31,3 +31,29 @@
 * **Used For:** Explanation, structural comparison, brainstorming, and template formatting.
 
 I independently reviewed and verified the important factual or technical claims in this submission before submitting it.
+
+
+
+---
+
+# Week 02 - Machine Learning Foundations
+
+## Learning Objectives
+
+- [ ] Understand machine learning basics
+- [ ] Understand data and features
+- [ ] Learn supervised and unsupervised learning
+- [ ] Understand training and testing
+- [ ] Learn model evaluation and common ML errors
+- [ ] Explore an ML application related to semiconductor design and DFT
+
+## Deliverables Checklist
+
+- [ ] ML concepts and learning approaches
+- [ ] ML tasks and model anatomy
+- [ ] Model evaluation and failure modes
+- [ ] When to use ML
+- [ ] Semiconductor case study
+- [ ] ML lifecycle map
+- [ ] Sources and reflection
+
