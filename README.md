@@ -77,7 +77,7 @@ I will independently review the assignment, verify important factual and technic
 ## Progress Tracker
 
 - [x] Week 01 - The AI Landscape
-- [ ] Week 02 - Machine Learning Foundations
+- [x] Week 02 - Machine Learning Foundations
 - [ ] Week 03 - To be completed
 - [ ] Week 04 - To be completed
 - [ ] Week 05 - To be completed
