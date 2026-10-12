@@ -40,20 +40,59 @@ I independently reviewed and verified the important factual or technical claims 
 
 ## Learning Objectives
 
-- [x] Understand machine learning basics
-- [x] Understand data and features
-- [x] Learn supervised and unsupervised learning
-- [x] Understand training and testing
-- [x] Learn model evaluation and common ML errors
-- [x] Explore an ML application related to semiconductor design and DFT
+- [x] Explain the basic idea of machine learning
+- [x] Understand the role of data and features in ML
+- [x] Distinguish supervised, unsupervised, and reinforcement learning
+- [x] Identify common machine learning tasks
+- [x] Understand training, validation, and test datasets
+- [x] Explain model evaluation using appropriate metrics
+- [x] Recognize overfitting, underfitting, data leakage, and other failure modes
+- [x] Compare rule-based automation with machine learning
+- [x] Explore a machine learning use case related to semiconductor design and DFT
 
 ## Deliverables Checklist
 
-- [x] ML concepts and learning approaches
-- [x] ML tasks and model anatomy
-- [x] Model evaluation and failure modes
-- [x] When to use ML
-- [x] Semiconductor case study
-- [x] ML lifecycle map
-- [x] Sources and reflection
+- [x] `w02/mission_01_ai_ml_landscape.md`
+- [x] `w02/mission_02_data.md`
+- [x] `w02/mission_03_learning_approaches.md`
+- [x] `w02/mission_04_ml_tasks.md`
+- [x] `w02/mission_05_model_anatomy.md`
+- [x] `w02/mission_06_evaluation.md`
+- [x] `w02/mission_07_failure_modes.md`
+- [x] `w02/mission_08_when_to_use_ml.md`
+- [x] `w02/mission_09_semiconductor_case_study.md`
+- [x] `w02/ml_lifecycle_map.md`
+- [x] `w02/sources.md`
+- [x] `w02/reflection.md`
+
+## AI Usage Declaration
+
+- **AI Tools Used:** ChatGPT
+- **Used For:** Explaining ML concepts, organizing assignment responses, brainstorming semiconductor-related examples, and formatting the deliverables.
+
+I will independently review the assignment, verify important factual and technical claims, check the references, and personalize the reflection before submitting.
+
+---
+
+## Progress Tracker
+
+- [x] Week 01 - The AI Landscape
+- [ ] Week 02 - Machine Learning Foundations
+- [ ] Week 03 - To be completed
+- [ ] Week 04 - To be completed
+- [ ] Week 05 - To be completed
+- [ ] Week 06 - To be completed
+- [ ] Week 07 - To be completed
+- [ ] Week 08 - To be completed
+- [ ] Week 09 - To be completed
+- [ ] Week 10 - To be completed
+- [ ] Week 11 - To be completed
+- [ ] Week 12 - To be completed
+- [ ] Week 13 - To be completed
+- [ ] Week 14 - To be completed
+- [ ] Week 15 - To be completed
+- [ ] Week 16 - To be completed
+
+
+
 
