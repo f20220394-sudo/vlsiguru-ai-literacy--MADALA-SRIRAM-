@@ -109,7 +109,7 @@ status: Completed
 
 ## Learning Objectives
 
-Review pending Week 1 and Week 2 work.
+* Review pending Week 1 and Week 2 work.
 
 Continue Harvard CS50P Python learning.
 
