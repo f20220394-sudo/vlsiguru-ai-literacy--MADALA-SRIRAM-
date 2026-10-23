@@ -97,7 +97,7 @@ I will independently review the assignment, verify important factual and technic
 Week 03 - Practical AI Tools and Engineering Learning
 status: Completed
 
-Learning Objectives:
+## Learning Objectives:
 
 Review pending Week 1 and Week 2 work.
 
