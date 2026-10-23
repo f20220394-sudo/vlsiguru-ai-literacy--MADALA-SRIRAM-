@@ -99,13 +99,13 @@ status: Completed
 
 ## Week 03 Deliverables
 
-README.md - Week 3 overview and learning objectives.
+* **README.md:** Week 3 overview and learning objectives.
 
-ai_tools_exploration.md - AI tools, prompts, comparison, and claim verification.
+* **ai_tools_exploration.md:** AI tools, prompts, comparison, and claim verification.
 
-vlsi_tool_investigation.md - Open-source VLSI tool investigation.
+* **vlsi_tool_investigation.md:** Open-source VLSI tool investigation.
 
-reflection.md - Reflection and questions for the ML masterclass.
+* **reflection.md:** Reflection and questions for the ML masterclass.
 
 ## Learning Objectives
 
