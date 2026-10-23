@@ -111,17 +111,17 @@ status: Completed
 
 * Review pending Week 1 and Week 2 work.
 
-Continue Harvard CS50P Python learning.
+* Continue Harvard CS50P Python learning.
 
-Explore AI tools for engineering learning and research.
+* Explore AI tools for engineering learning and research.
 
-Practise prompt improvement and compare AI-generated explanations.
+* Practise prompt improvement and compare AI-generated explanations.
 
-Verify a technical claim using reliable documentation.
+* Verify a technical claim using reliable documentation.
 
-Investigate an open-source VLSI tool relevant to digital design and DFT.
+* Investigate an open-source VLSI tool relevant to digital design and DFT.
 
-Reflect on learning, challenges, and questions for the ML masterclass.
+* Reflect on learning, challenges, and questions for the ML masterclass.
 
 This assignment focuses on practical AI literacy, prompt engineering, source verification, continued Python learning, and exploration of Yosys for RTL synthesis. It also builds my understanding of how synthesis relates to Design for Test activities such as scan insertion and test-pattern generation.
 
