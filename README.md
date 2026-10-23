@@ -94,7 +94,7 @@ I will independently review the assignment, verify important factual and technic
 - [ ] Week 16 - To be completed
 
 
-Week 03 - Practical AI Tools and Engineering Learning
+## Week 03 - Practical AI Tools and Engineering Learning
 status: Completed
 
 ## Learning Objectives:
