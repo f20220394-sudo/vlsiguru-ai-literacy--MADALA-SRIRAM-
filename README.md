@@ -78,7 +78,7 @@ I will independently review the assignment, verify important factual and technic
 
 - [x] Week 01 - The AI Landscape
 - [x] Week 02 - Machine Learning Foundations
-- [ ] Week 03 - To be completed
+- [x] Week 03 - Practical AI tools, research and engineering learning
 - [ ] Week 04 - To be completed
 - [ ] Week 05 - To be completed
 - [ ] Week 06 - To be completed
@@ -92,6 +92,27 @@ I will independently review the assignment, verify important factual and technic
 - [ ] Week 14 - To be completed
 - [ ] Week 15 - To be completed
 - [ ] Week 16 - To be completed
+
+
+Week 03 - Practical AI Tools and Engineering Learning
+status: Completed
+Learning Objectives
+
+Review pending Week 1 and Week 2 work.
+
+Continue Harvard CS50P Python learning.
+
+Explore AI tools for engineering learning and research.
+
+Practise prompt improvement and compare AI-generated explanations.
+
+Verify a technical claim using reliable documentation.
+
+Investigate an open-source VLSI tool relevant to digital design and DFT.
+
+Reflect on learning, challenges, and questions for the ML masterclass.
+
+This assignment focuses on practical AI literacy, prompt engineering, source verification, continued Python learning, and exploration of Yosys for RTL synthesis. It also builds my understanding of how synthesis relates to Design for Test activities such as scan insertion and test-pattern generation.
 
 
 
