@@ -76,10 +76,10 @@ I will independently review the assignment, verify important factual and technic
 
 ## Progress Tracker
 
-- [x] Week 01 - The AI Landscape
-- [x] Week 02 - Machine Learning Foundations
-- [x] Week 03 - Practical AI tools, research and engineering learning
-- [ ] Week 04 - To be completed
+- [x] Week 01 - The AI Landscape: Completed
+- [x] Week 02 - Machine Learning Foundations: Completed
+- [x] Week 03 - Practical AI tools, research and engineering learning: Completed 
+- [x] Week 04 -  Data & Deep Learning Foundations: Completed
 - [ ] Week 05 - To be completed
 - [ ] Week 06 - To be completed
 - [ ] Week 07 - To be completed
@@ -124,6 +124,9 @@ status: Completed
 * Reflect on learning, challenges, and questions for the ML masterclass.
 
 This assignment focuses on practical AI literacy, prompt engineering, source verification, continued Python learning, and exploration of Yosys for RTL synthesis. It also builds my understanding of how synthesis relates to Design for Test activities such as scan insertion and test-pattern generation.
+
+
+
 
 
 
