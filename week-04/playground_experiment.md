@@ -12,46 +12,50 @@ To understand whether increasing neural-network complexity always improves perfo
 
 ## Experiment Steps
 
-1. Open TensorFlow Playground.
-2. Select a simple classification dataset.
-3. Start with a basic neural network.
-4. Observe the decision boundary.
-5. Add another hidden layer or increase neurons.
-6. Train the network again.
-7. Compare both configurations.
+1. Opened TensorFlow Playground.
+2. Selected the Circle classification dataset.
+3. Started with a neural network containing 2 hidden layers.
+4. Observed the training behaviour and decision boundary.
+5. Modified the network to contain 3 hidden layers.
+6. Trained the modified network again.
+7. Compared the training loss and test loss at epoch 1,500.
 
 ## Experiment Log
 
 | Parameter | Starting Network | Modified Network |
 |---|---|---|
-| Dataset | To be recorded | Same dataset |
-| Hidden layers | To be recorded | To be recorded |
-| Number of neurons | To be recorded | To be recorded |
-| Activation function | To be recorded | To be recorded |
-| Training behaviour | To be recorded | To be recorded |
-| Decision boundary | To be recorded | To be recorded |
+| Dataset | Circle | Circle |
+| Hidden layers | 2 | 3 |
+| Number of neurons | Not recorded | Not recorded |
+| Activation function | Not recorded | Not recorded |
+| Epochs | 1,500 | 1,500 |
+| Training loss | 0.000 | 0.000 |
+| Test loss | 0.001 | 0.000 |
+| Training behaviour | Loss decreased | Loss decreased |
+
+*Note: Loss values are the displayed, rounded values from the Playground.*
 
 ## Questions and Answers
 
 **1. What changed when you modified the network?**
 
-The network's ability to represent complex patterns may change when additional layers or neurons are added.
+I increased the number of hidden layers from 2 to 3. This increased the network's complexity and its ability to represent patterns.
 
 **2. Did the more complex network always perform better?**
 
-No. More complexity does not guarantee better performance.
+In my experiment, the 3-hidden-layer network showed a slightly lower displayed test loss (0.000) than the 2-hidden-layer network (0.001). However, one experiment does not prove that a deeper network will always perform better.
 
 **3. What is the relationship between complexity and patterns?**
 
-A complex network can learn more complicated patterns but may also learn unnecessary details.
+A complex network can learn more complicated patterns. However, unnecessary complexity can increase training time and may cause overfitting.
 
 **4. Why is training performance not enough?**
 
-The model may perform well on training data but poorly on unseen data.
+A model may perform well on training data but poorly on unseen data. Therefore, test performance is also important.
 
 **5. How is this different from real semiconductor inspection?**
 
-The Playground uses simple artificial datasets. Semiconductor inspection involves real images, noise, process variations and rare defects.
+TensorFlow Playground uses a simple artificial dataset. Real semiconductor inspection involves chip images, noise, process variations and rare defects. In DFT, machine learning can also support scan-test failure analysis.
 
 **6. What evidence is required before practical use?**
 
@@ -63,4 +67,6 @@ The Playground uses simple artificial datasets. Semiconductor inspection involve
 
 ## Conclusion
 
-A complex neural network is not always better. Performance should be evaluated using unseen data.
+This experiment helped me understand that increasing the number of hidden layers can change neural-network performance. My modified network showed a lower displayed test loss, but more experiments are needed before concluding that a deeper network is always better.
+
+I learned that model performance should be evaluated using unseen data, not only training loss.
